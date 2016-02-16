@@ -1,0 +1,6 @@
+framework module PhraseKit {
+  umbrella header "PhraseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

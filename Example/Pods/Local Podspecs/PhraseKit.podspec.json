@@ -1,0 +1,25 @@
+{
+  "name": "PhraseKit",
+  "version": "0.1.0",
+  "summary": "A short description of PhraseKit.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PhraseKit",
+  "license": "MIT",
+  "authors": {
+    "Yeradis P. Barbosa Marrero": "yeradis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PhraseKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PhraseKit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

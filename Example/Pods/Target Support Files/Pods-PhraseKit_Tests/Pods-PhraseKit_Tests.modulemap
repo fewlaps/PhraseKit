@@ -1,0 +1,6 @@
+framework module Pods_PhraseKit_Tests {
+  umbrella header "Pods-PhraseKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

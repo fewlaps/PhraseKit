@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3F97283AAB3458ABCED75014483A23 /* PhraseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F51D3BC911C8EE88FF92E5841FE451 /* PhraseKit-dummy.m */; };
+		205F0299222CBCED4F76A75D9F2AF874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB16EA5799779FB181EC2BDC4EDF58BB /* Foundation.framework */; };
+		33025F8C50A5F622ABD358B2088C7174 /* Pods-PhraseKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAFEBAF156098D9E0D0B19FA7C39FDC /* Pods-PhraseKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8C60F821CE38FCB733ACDF86E3663D /* Pods-PhraseKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D64457564B32E6D64877B0BC82482EE /* Pods-PhraseKit_Tests-dummy.m */; };
+		785F88DF1C735A5F009A8A79 /* PhraseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 785F88DE1C735A5F009A8A79 /* PhraseKit.m */; };
+		785F88E11C735A69009A8A79 /* PhraseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 785F88E01C735A69009A8A79 /* PhraseKit.h */; };
+		785F88E21C73602C009A8A79 /* PhraseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 785F88DE1C735A5F009A8A79 /* PhraseKit.m */; };
+		84924D8B6262D293A138E4C200076BD2 /* PhraseKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D706B2C8167319BB2C7DFF62FCC6273 /* PhraseKit.bundle */; };
+		D782C71EA95F4B70A4AE5C0CD88D5F43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB16EA5799779FB181EC2BDC4EDF58BB /* Foundation.framework */; };
+		EBB91CF789F4F83F4B5E4D33F6D58338 /* PhraseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB0A1F87E6814C672C687F261AE1D7E /* PhraseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBDA60607FBAA03EE1E9BF1D4296D4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220907076BB222DCA26B975F7617362B;
+			remoteInfo = "PhraseKit-PhraseKit";
+		};
+		F9DA8002FAF3D8DB4F7FB39B253FDEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 858297464BE6D47FC7E4ECE6E6CCD8D9;
+			remoteInfo = PhraseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A91D9EF09BEC76AFB237C685DF6D001 /* Pods-PhraseKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhraseKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D706B2C8167319BB2C7DFF62FCC6273 /* PhraseKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhraseKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7EA44BC7FCCB74729991B00B50425A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PhraseKit-Private.xcconfig"; sourceTree = "<group>"; };
+		2A97EFC146376775A64C1C4AA4E56677 /* Pods-PhraseKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PhraseKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4F581026FAD3C35D1C88ABE007501A25 /* Pods_PhraseKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhraseKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BDA453F1055F8DF0BFEA5C20657CFF /* Pods-PhraseKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhraseKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6832974CCBA452EF3D355EC045C9281A /* PhraseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhraseKit.xcconfig; sourceTree = "<group>"; };
+		6CB0A1F87E6814C672C687F261AE1D7E /* PhraseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhraseKit-umbrella.h"; sourceTree = "<group>"; };
+		6FD0A32D4A744BE3143A0038D695B6A2 /* PhraseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PhraseKit.modulemap; sourceTree = "<group>"; };
+		785F88DE1C735A5F009A8A79 /* PhraseKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhraseKit.m; sourceTree = "<group>"; };
+		785F88E01C735A69009A8A79 /* PhraseKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhraseKit.h; sourceTree = "<group>"; };
+		7BAFEBAF156098D9E0D0B19FA7C39FDC /* Pods-PhraseKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhraseKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8872FF86BF283A0397BA536BD3449D58 /* Pods-PhraseKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhraseKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98625AA9F1E2E79A7E04941557A17DC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D64457564B32E6D64877B0BC82482EE /* Pods-PhraseKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhraseKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB16EA5799779FB181EC2BDC4EDF58BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C17CD75ECB36A1C1CA6FA797B82E78E1 /* Pods-PhraseKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhraseKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D3DE9B38A80F23B11F9A2CE43F0941FD /* Pods-PhraseKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhraseKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D40B519AC013E78879AE717832F66F58 /* PhraseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhraseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F51D3BC911C8EE88FF92E5841FE451 /* PhraseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhraseKit-dummy.m"; sourceTree = "<group>"; };
+		E8EA109DCD368B6C59B453D34D69A97D /* PhraseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhraseKit-prefix.pch"; sourceTree = "<group>"; };
+		F468C75FF8512CFD54926494781AF8C5 /* Pods-PhraseKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhraseKit_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D373F4FB0103845004668EB9C63FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D782C71EA95F4B70A4AE5C0CD88D5F43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D73903AF7FB4752352BB6DCE13746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978E516A2281B287EBB77CCC0040F094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205F0299222CBCED4F76A75D9F2AF874 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19BC5A3AEA9CAB7E6016FC826EF8A134 /* PhraseKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F0109B9BA1450735D449ED2589F6 /* Pod */,
+				913D51B51956DA35C7928A42A3A681A7 /* Support Files */,
+			);
+			name = PhraseKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB16EA5799779FB181EC2BDC4EDF58BB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				7E97C309AD9BF0164C069F123403821E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				FBD9F6DEF6FEB070E66E315D398EF4AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E97C309AD9BF0164C069F123403821E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19BC5A3AEA9CAB7E6016FC826EF8A134 /* PhraseKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8A06E52A104FA6CB35C785161EA8EC66 /* Pods-PhraseKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7EA44BC7FCCB74729991B00B50425A /* Info.plist */,
+				2A97EFC146376775A64C1C4AA4E56677 /* Pods-PhraseKit_Tests.modulemap */,
+				D3DE9B38A80F23B11F9A2CE43F0941FD /* Pods-PhraseKit_Tests-acknowledgements.markdown */,
+				0A91D9EF09BEC76AFB237C685DF6D001 /* Pods-PhraseKit_Tests-acknowledgements.plist */,
+				9D64457564B32E6D64877B0BC82482EE /* Pods-PhraseKit_Tests-dummy.m */,
+				C17CD75ECB36A1C1CA6FA797B82E78E1 /* Pods-PhraseKit_Tests-frameworks.sh */,
+				F468C75FF8512CFD54926494781AF8C5 /* Pods-PhraseKit_Tests-resources.sh */,
+				7BAFEBAF156098D9E0D0B19FA7C39FDC /* Pods-PhraseKit_Tests-umbrella.h */,
+				8872FF86BF283A0397BA536BD3449D58 /* Pods-PhraseKit_Tests.debug.xcconfig */,
+				59BDA453F1055F8DF0BFEA5C20657CFF /* Pods-PhraseKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-PhraseKit_Tests";
+			path = "Target Support Files/Pods-PhraseKit_Tests";
+			sourceTree = "<group>";
+		};
+		913D51B51956DA35C7928A42A3A681A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98625AA9F1E2E79A7E04941557A17DC4 /* Info.plist */,
+				6FD0A32D4A744BE3143A0038D695B6A2 /* PhraseKit.modulemap */,
+				6832974CCBA452EF3D355EC045C9281A /* PhraseKit.xcconfig */,
+				1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */,
+				E1F51D3BC911C8EE88FF92E5841FE451 /* PhraseKit-dummy.m */,
+				E8EA109DCD368B6C59B453D34D69A97D /* PhraseKit-prefix.pch */,
+				6CB0A1F87E6814C672C687F261AE1D7E /* PhraseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PhraseKit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D706B2C8167319BB2C7DFF62FCC6273 /* PhraseKit.bundle */,
+				D40B519AC013E78879AE717832F66F58 /* PhraseKit.framework */,
+				4F581026FAD3C35D1C88ABE007501A25 /* Pods_PhraseKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54D4BED9B4E3D5DE26DFB9C84159A83 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				785F88E01C735A69009A8A79 /* PhraseKit.h */,
+				785F88DE1C735A5F009A8A79 /* PhraseKit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC65F0109B9BA1450735D449ED2589F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D54D4BED9B4E3D5DE26DFB9C84159A83 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FBD9F6DEF6FEB070E66E315D398EF4AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A06E52A104FA6CB35C785161EA8EC66 /* Pods-PhraseKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E31881B7C554586C39E0C7AEB2BFF5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785F88E11C735A69009A8A79 /* PhraseKit.h in Headers */,
+				EBB91CF789F4F83F4B5E4D33F6D58338 /* PhraseKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E7CEFFE1BEDE8FCBDDB4D24A065850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33025F8C50A5F622ABD358B2088C7174 /* Pods-PhraseKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		220907076BB222DCA26B975F7617362B /* PhraseKit-PhraseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F0E02BCB4BB4228709E111FA562F13 /* Build configuration list for PBXNativeTarget "PhraseKit-PhraseKit" */;
+			buildPhases = (
+				5D88D255F02BFEDC012FE2308CB619D6 /* Sources */,
+				723D73903AF7FB4752352BB6DCE13746 /* Frameworks */,
+				B461A5277D975CFE58CF98D1D648EE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhraseKit-PhraseKit";
+			productName = "PhraseKit-PhraseKit";
+			productReference = 0D706B2C8167319BB2C7DFF62FCC6273 /* PhraseKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		858297464BE6D47FC7E4ECE6E6CCD8D9 /* PhraseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742D3E26CD08C979B976C4C9A2E78C4A /* Build configuration list for PBXNativeTarget "PhraseKit" */;
+			buildPhases = (
+				A35351F8D9B4C3D995E9DB5A790146A8 /* Sources */,
+				978E516A2281B287EBB77CCC0040F094 /* Frameworks */,
+				CC8CC1A5DBABF348E12709D70DD445AE /* Resources */,
+				0E31881B7C554586C39E0C7AEB2BFF5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4E860AC115C4871104A2A43E42C703 /* PBXTargetDependency */,
+			);
+			name = PhraseKit;
+			productName = PhraseKit;
+			productReference = D40B519AC013E78879AE717832F66F58 /* PhraseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A00E84A3FB0DE31AF0F2E3055A0FDB1 /* Pods-PhraseKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A87288D75929EB36D9AF9A041E1195 /* Build configuration list for PBXNativeTarget "Pods-PhraseKit_Tests" */;
+			buildPhases = (
+				AAF65B4DDFEB9A0F8393B278563BA423 /* Sources */,
+				68D373F4FB0103845004668EB9C63FCF /* Frameworks */,
+				C5E7CEFFE1BEDE8FCBDDB4D24A065850 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E99BB5E59097200F59EA45D6E302BF /* PBXTargetDependency */,
+			);
+			name = "Pods-PhraseKit_Tests";
+			productName = "Pods-PhraseKit_Tests";
+			productReference = 4F581026FAD3C35D1C88ABE007501A25 /* Pods_PhraseKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858297464BE6D47FC7E4ECE6E6CCD8D9 /* PhraseKit */,
+				220907076BB222DCA26B975F7617362B /* PhraseKit-PhraseKit */,
+				9A00E84A3FB0DE31AF0F2E3055A0FDB1 /* Pods-PhraseKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B461A5277D975CFE58CF98D1D648EE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8CC1A5DBABF348E12709D70DD445AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84924D8B6262D293A138E4C200076BD2 /* PhraseKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D88D255F02BFEDC012FE2308CB619D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35351F8D9B4C3D995E9DB5A790146A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3F97283AAB3458ABCED75014483A23 /* PhraseKit-dummy.m in Sources */,
+				785F88DF1C735A5F009A8A79 /* PhraseKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF65B4DDFEB9A0F8393B278563BA423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785F88E21C73602C009A8A79 /* PhraseKit.m in Sources */,
+				3B8C60F821CE38FCB733ACDF86E3663D /* Pods-PhraseKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E99BB5E59097200F59EA45D6E302BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhraseKit;
+			target = 858297464BE6D47FC7E4ECE6E6CCD8D9 /* PhraseKit */;
+			targetProxy = F9DA8002FAF3D8DB4F7FB39B253FDEB3 /* PBXContainerItemProxy */;
+		};
+		7D4E860AC115C4871104A2A43E42C703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PhraseKit-PhraseKit";
+			target = 220907076BB222DCA26B975F7617362B /* PhraseKit-PhraseKit */;
+			targetProxy = CBDA60607FBAA03EE1E9BF1D4296D4D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026465EAD65B167D16D15AC10871BF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PhraseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2EC98454B29E553EF1D6C92B2180406F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhraseKit/PhraseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhraseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhraseKit/PhraseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PhraseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47B30D87F9E078B55818B4375FF5011A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhraseKit/PhraseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhraseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhraseKit/PhraseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PhraseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48140B361264DD6D2D6BF4910F0D090D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8872FF86BF283A0397BA536BD3449D58 /* Pods-PhraseKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhraseKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PhraseKit_Tests/Pods-PhraseKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PhraseKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70932F11FFB0118AE39254B48A881BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BDA453F1055F8DF0BFEA5C20657CFF /* Pods-PhraseKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhraseKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PhraseKit_Tests/Pods-PhraseKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PhraseKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B53480F859C08727A2E7C355B3B9BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D100BBABC150F9042EE55623F6E778A /* PhraseKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PhraseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742D3E26CD08C979B976C4C9A2E78C4A /* Build configuration list for PBXNativeTarget "PhraseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B30D87F9E078B55818B4375FF5011A /* Debug */,
+				2EC98454B29E553EF1D6C92B2180406F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F0E02BCB4BB4228709E111FA562F13 /* Build configuration list for PBXNativeTarget "PhraseKit-PhraseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026465EAD65B167D16D15AC10871BF52 /* Debug */,
+				B53480F859C08727A2E7C355B3B9BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A87288D75929EB36D9AF9A041E1195 /* Build configuration list for PBXNativeTarget "Pods-PhraseKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48140B361264DD6D2D6BF4910F0D090D /* Debug */,
+				70932F11FFB0118AE39254B48A881BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

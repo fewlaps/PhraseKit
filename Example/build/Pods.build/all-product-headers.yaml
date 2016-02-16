@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yeradis/Projects/Fewlaps/PhraseKit/PhraseKit/Example/build/Debug-iphonesimulator/PhraseKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PhraseKit-Swift.h",
+          'external-contents': "/Users/yeradis/Projects/Fewlaps/PhraseKit/PhraseKit/Example/build/Debug-iphonesimulator/PhraseKit.framework/Headers/PhraseKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PhraseKit-umbrella.h",
+          'external-contents': "/Users/yeradis/Projects/Fewlaps/PhraseKit/PhraseKit/Example/Pods/Target Support Files/PhraseKit/PhraseKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yeradis/Projects/Fewlaps/PhraseKit/PhraseKit/Example/build/Debug-iphonesimulator/PhraseKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yeradis/Projects/Fewlaps/PhraseKit/PhraseKit/Example/build/Pods.build/Debug-iphonesimulator/PhraseKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

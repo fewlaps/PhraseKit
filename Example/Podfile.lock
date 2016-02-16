@@ -1,0 +1,14 @@
+PODS:
+  - PhraseKit (0.1.0)
+
+DEPENDENCIES:
+  - PhraseKit (from `../`)
+
+EXTERNAL SOURCES:
+  PhraseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PhraseKit: f72d6d925fb02ec6ad7b8c153d02a29880f48cc2
+
+COCOAPODS: 0.38.2
