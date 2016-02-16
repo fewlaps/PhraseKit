@@ -1,4 +1,5 @@
 @import XCTest;
+@import PhraseKit.PhraseKit;
 
 @interface Tests : XCTestCase
 
@@ -20,7 +21,11 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString* stringWithoutPlaceholders = @"lest play with placeholders value 1 and value two";
+    NSString* stringWithPlaceholders = @"lest play with placeholders {one} and {two}";
+    NSString* newString = [stringWithPlaceholders replacePlaceholdersUsingDictionary:@{@"one":@"value 1",@"two":@"value two"}];
+    XCTAssertNotNil(newString,@"string should not be nil");
+    XCTAssert([newString isEqualToString:stringWithoutPlaceholders], @"strings should be equeal");
 }
 
 @end
